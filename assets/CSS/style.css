@@ -1,0 +1,89 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    background-color: #E74755;
+    color:#F9DBCE;
+    width: 100%;
+    margin: -8px;
+    padding: 50px;
+    text-align: center;
+}
+
+#main {}
+ 
+.container{
+    width: 80%;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+
+
+
+}
+
+.card {
+    width: 15%;
+    height: 100%;
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px ;
+    background-color: #F6F8F9;
+    color: #ADB7B6; 
+    border: 2px solid gainsboro;
+
+}
+
+.name {
+    width: 100%;
+    font-size: 30px;
+    margin-top: -25px;
+    margin-left: -25px;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0077F7;
+    color: #FFFFFF;
+}
+.title {
+    width: 100%;
+    font-size: 24px;
+    margin-left: -25px;
+    margin-top: -30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 30px;
+    background-color: #0077F7;
+    color: #FFFFFF;
+}
+
+.idNumber{
+    width:100%;
+    font-size: 14px;
+    background-color: #F6F8F9;  
+    
+    
+}
+.email{
+    width:100%;
+    font-size: 14px;
+    background-color: #F6F8F9;  
+}
+
+.officeNumber {
+    width:100%;
+    font-size: 14px;
+    background-color: #F6F8F9;  
+}
+
+.githubUsername {
+    width:100%;
+    font-size: 14px;
+    background-color: #F6F8F9;  
+}
