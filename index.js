@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const fs = req ("fs");
+const fs = require ("fs");
 
 const Engineer = require("./main/lib/Engineer");
 const Intern = require("./main/lib/Intern");
@@ -52,8 +52,22 @@ inquirer
             return 'Please enter at least one character.';
           },
         },
+        {
+          type: 'list',
+          message: "Which employee would you like to add?",
+          choices:[
+            "Engineer",
+            "Intern",
+            "None"
+          ],
+          validate: (answer) => {
+            if (answer !== '') {
+              return true;
+            }
+            return 'Please choose one';
+          },
+        },
       ])
-  
       .then((answers) => {
         console.log('answers', answers);
       });
