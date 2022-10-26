@@ -1,9 +1,15 @@
-class Intern {
-    constructor(name) {
-     this.name = name
-     // ... add more attribute
+const Employee = require("./Employee")
+
+class Intern extends Employee{
+  @Override  
+  constructor(school) {
+     super(name, id, email);
+      this.school = school;
+    
     }
-    // .. add method
+    getRole () {
+      return  "Intern"
+  }
   }
   
   module.exports = Intern

@@ -1,9 +1,14 @@
-class Manager {
-    constructor(name) {
-     this.name = name
-     // ... add more attribute
+const Employee = require("./Employee")
+
+class Manager extends Employee {
+  @Override  
+  constructor(officeNumber) {
+     this.officeNumber = officeNumber
+     
     }
-    // .. add method
+    getRole () {
+      return  "Manager"
+  }
   }
   
   module.exports = Manager
