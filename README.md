@@ -16,7 +16,7 @@ https://opensource.org/licenses/MIT
   ## Description:
   
   >### Demo 
-  ![alt text](https://github.com/penelope-leung/challenge9-readme-generator/blob/main/demo/challenge9%20demo.gif)
+   ## https://youtu.be/gBLZ5yZuLAI
 
 >### User Story<br>
 >AS A manager<br>
