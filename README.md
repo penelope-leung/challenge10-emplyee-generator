@@ -1,5 +1,8 @@
 # Team Profile Generator
 
+## Repository: https://github.com/penelope-leung/challenge10-emplyee-generator
+
+
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
  
 https://opensource.org/licenses/MIT
@@ -75,7 +78,10 @@ https://opensource.org/licenses/MIT
    Penelope Leung
 
   ## Testing
-  N/A
+  - Open the terminal 
+  - Select the __test__ folder
+  - Open in intergrated Terminal
+  - Put "npm run test"
 
   ## Github
   [penelope-leung](https://github.com/penelope-leung)
